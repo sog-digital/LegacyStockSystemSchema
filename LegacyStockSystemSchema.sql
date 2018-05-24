@@ -32,22 +32,6 @@ INSERT INTO `stock`.`person`
 `lastname`,
 `email`,
 `password`,
-`dob`)
-VALUES
-(1,
-'sogeti',
-'ireland',
-'sogeti@sogeti.com',
-'pass',
-'01-01-1967');
-
-
-INSERT INTO `stock`.`person`
-(`ID`,
-`firstname`,
-`lastname`,
-`email`,
-`password`,
 `dob`,
 `lastCreated`,
 `lastUpdated`)
