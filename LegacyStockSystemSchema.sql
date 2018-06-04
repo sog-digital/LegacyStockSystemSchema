@@ -16,7 +16,7 @@ CREATE TABLE `person` (
 
 
 CREATE TABLE `product` (
-  `productID` int(11) NOT NULL,
+  `productID` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(45) NOT NULL,
   `price` varchar(45) DEFAULT NULL,
   `amount` int(11) DEFAULT NULL,
