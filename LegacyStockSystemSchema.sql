@@ -7,7 +7,7 @@ CREATE TABLE `person` (
   `firstname` varchar(45) DEFAULT NULL,
   `lastname` varchar(45) DEFAULT NULL,
   `email` varchar(45) NOT NULL,
-  `password` varchar(45) NOT NULL,
+  `password` varchar(250) NOT NULL,
   `dob` varchar(45) NOT NULL,
   `lastCreated` varchar(45) NOT NULL,
   `lastUpdated` varchar(45) NOT NULL,
@@ -25,6 +25,7 @@ CREATE TABLE `product` (
   PRIMARY KEY (`productID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+ /*! This user  Password is: pass */
 
 INSERT INTO `stock`.`person`
 (`ID`,
@@ -37,10 +38,10 @@ INSERT INTO `stock`.`person`
 `lastUpdated`)
 VALUES
 (1,
-'sogeti',
-'ireland',
+'Sogeti',
+'Ireland',
 'sogeti@sogeti.com',
-'pass',
+'d3EZNGOxjg1BPkAM94UYOA==',
 '01-02-1980',
 '01-01-2018 12.00',
 '01-01-2018 12.00');
